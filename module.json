@@ -1,0 +1,67 @@
+{
+  "id": "nyquistt-turtle-train",
+  "title": "Turtle Train Campaign",
+  "description": "<p>A repository for the Turtle Train Campaign.</p>",
+  "authors": [
+    {
+      "name": "Nyquist",
+      "flags": {}
+    }
+  ],
+  "version": "0.1.1",
+  "compatibility": {
+    "minimum": "13",
+    "verified": "13"
+  },
+  "url": "https://github.com/Nyquisttt/nyquistt-turtle-train",
+  "manifest": "https://github.com/Nyquisttt/nyquistt-turtle-train/blob/main/module.json",
+  "download": "https://github.com/Nyquisttt/nyquistt-turtle-train/archive/refs/tags/v0.1.1.zip",
+  "scripts": [
+    "scripts/turtletrain.js"
+  ],
+  "packs": [
+    {
+      "name": "scenes",
+      "label": "Turtle Train Scenes",
+      "path": "packs/scenes",
+      "type": "Scene",
+      "ownership": {
+        "PLAYER": "NONE",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "characters",
+      "label": "Turtle Train Characters",
+      "path": "packs/characters",
+      "type": "Actor",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "NONE",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "journals-private",
+      "label": "Turtle Train Journals Private",
+      "path": "packs/journals-private",
+      "type": "JournalEntry",
+      "ownership": {
+        "PLAYER": "NONE",
+        "ASSISTANT": "OWNER"
+      }
+    }
+  ],
+  "packFolders": [
+    {
+      "name": "Turtle Train",
+      "color": "#c1a030",
+      "packs": [
+        "scenes",
+        "characters",
+        "journals-private"
+      ],
+      "folders": []
+    }
+  ]
+}
